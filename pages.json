@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+		    "path" : "pages/overview/overview",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "经营状况",
+		        "enablePullDownRefresh": false
+		    }
+		},{
+		    "path" : "pages/orderMenu/orderMenu",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "玖玖点餐系统",
+		        "enablePullDownRefresh": false
+		    }
+		},{
+		    "path" : "pages/orderState/orderState",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "出餐状态",
+		        "enablePullDownRefresh": true
+		    }
+		}
+
+
+
+
+        ,{
+            "path" : "pages/optionsData/optionsData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	  "tabBar": {
+	    "color": "#a9b7b7",
+	    "selectedColor": "#01d9f0",
+	    "borderStyle": "black",
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "首页",
+			"iconPath":"static/images/appicon/shop.png",
+			"selectedIconPath": "static/images/appicon/shop.png"
+	      },
+		  {
+		    "pagePath": "pages/overview/overview",
+		    "text": "经营状况",
+			"iconPath":"static/images/appicon/statistics.png",
+			"selectedIconPath": "static/images/appicon/statistics.png"
+		  },
+		  {
+		    "pagePath": "pages/orderMenu/orderMenu",
+		    "text": "点餐",
+			"iconPath":"static/images/appicon/order.png",
+			"selectedIconPath": "static/images/appicon/order.png"
+		  },
+		  {
+		    "pagePath": "pages/orderState/orderState",
+		    "text": "出餐状态",
+			"iconPath":"static/images/appicon/shalou.png",
+			"selectedIconPath": "static/images/appicon/shalou.png"
+		  }
+	    ]
+	  }
+}
